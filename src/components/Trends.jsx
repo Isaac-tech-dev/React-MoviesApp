@@ -9,7 +9,7 @@ import '../Styles/Videos.css'
 function Trends() {
   const {toogle} = useContext(Container)
   const Api = `https://api.themoviedb.org/3/`
-  const TrendsShow = '/trending/all/week'
+  const TrendsShow = '/trending/all/week?sort_by=popularity.desc&'
   const [trailer, setTrailer] = useState(true)
   const [trendsArray, setTrendsArray] = useState([])
   const [trendTitle, setTrendTitle] = useState('')

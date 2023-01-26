@@ -23,10 +23,10 @@ function NavBar(){
 
                 <h1 id={toogle? '' : 'heading'}>MoviesHub</h1>
                 <NavLink to="" style={({isActive}) => {return {color:isActive ? '#fff' : '#ee9800'}}}>
-                <span id={toogle? 'Movies' : 'TrendingLight'}><HiOutlineFire fontSize={25}/>Trendings</span>
+                <span id={toogle? 'Movies' : 'TrendingLight'}>Trendings</span>
                 </NavLink>
                 <NavLink to="/Movies" style={({isActive}) => {return {color:isActive ? '#fff' : '#ee9800'}}}>
-                <span id={toogle? 'Movies' : 'MoviesLight'}><HiOutlineFilm fontSize={25} id='Icon'/>Movies</span>
+                <span id={toogle? 'Movies' : 'MoviesLight'}>Movies</span>
                 </NavLink>
                 <NavLink to="/TVShow" style={({isActive}) => {return {color:isActive ? '#fff' : '#ee9800'}}}>
                 <span id={toogle? 'Movies' : 'MoviesLight'}>TV Series</span>
